@@ -1,0 +1,28 @@
+/* Group Selectors
+
+(p) -->  Tum p etiketleri
+
+(div p) --> div icerisinde ki tum p etiketleri
+
+(div,p) --> Tum div ve tum p etiketleri
+
+(p + div) --> p etiketlerinden sonra gelen div etiketi 
+
+*/
+
+/*div p {
+    color: red;
+}
+*/
+/*.container { color: saddlebrown;}*/
+
+/* .container div { color: blue;} */
+
+/* .container div p { color: blue;} */
+
+/*div,p { color: red;}*/
+
+/* p + div {color: blueviolet;} */
+
+/* div + p {color: chartreuse;} */
+
