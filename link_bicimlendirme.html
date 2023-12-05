@@ -1,86 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Link ve Buton Bicimlendirme</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <style>
+      a {
+        color: green;
+        font-size: 20px;
+        margin: 10px;
+        text-decoration: none; /* alt yaziyi kaldirir*/
+      }
 
-a{
-    color: green;
-    font-size: 20px;
-    margin: 10px;
-    text-decoration: none; /* alt yaziyi kaldirir*/
+      a:hover {
+        color: red;
+        background: yellow;
+        text-decoration: none; /* uzerine geldiginde alt cizgi kalkar*/
+        font-size: 25px;
+      }
 
-}
+      .buton {
+        padding: 10px 20px;
+        background-color: darkorange;
+        border: none;
+        color: white;
+        border-radius: 10px;
+      }
 
-a:hover{
-    color: red;
-    background: yellow;
-    text-decoration: none; /* uzerine geldiginde alt cizgi kalkar*/
-    font-size: 25px;
-}
+      .buton:hover { /* butonun uzerine gelince goruntulenecek gorunum*/
+        background-color: gray;
+        color: darkorange;
+      }
 
-.buton{
-    padding: 10px 20px;
-    background-color: darkorange;
-    border: none;
-    color: white;
-    border-radius: 10px;
+      .buton2 {
+        padding: 10px 20px;
+        background-color: white;
+        border: 2px solid darkorange;
+        color: darkorange;
+        border-radius: 50px;
+      }
 
-}
+      .buton2:hover {
+        background-color: darkorange;
+        color: white;
+      }
 
-.buton:hover{
-    background-color: gray;
-    color: darkorange;
-}
-
-.buton2{
-    padding: 10px 20px;
-    background-color: white;
-    border: 2px solid darkorange;
-    color: darkorange;
-    border-radius: 50px;
-
-
-}
-
-.buton2:hover{
-    background-color: darkorange;
-    color: white;
-}
-
+      i{
+        color: black; /*ikon rengi degistirme*/
+      }
     </style>
-
-</head>
-<body>
-    
+  </head>
+  <body>
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
     <a href="#">Link 4</a>
 
+    <br /><br /><br />
 
+    <button class="buton">
+        <i class="fa-solid fa-house"></i>
+        Anasayfa</button>
+    <button class="buton">
+        <i class="fa-solid fa-address-card"></i>
+        Hakkimizda</button>
+    <button class="buton">
+        <i class="fa-solid fa-shop"></i>
+        Kategoriler</button>
+    <button class="buton">
+        <i class="fa-solid fa-phone"></i>
+        Iletisim</button>
 
+    <br /><br /><br />
 
-    <br><br><br>
-
-
-    <button class="buton">Anasayfa</button>
-    <button class="buton">Hakkimizda</button>
-    <button class="buton">Kategoriler</button>
-    <button class="buton">Iletisim</button>
-
-
-    <br><br><br>
-
-
-    <button class="buton2">Anasayfa</button>
-    <button class="buton2">Hakkimizda</button>
-    <button class="buton2">Kategoriler</button>
-    <button class="buton2">Iletisim</button>
-
-</body>
+    <button class="buton2">
+        <i class="fa-solid fa-house"></i>
+        Anasayfa</button>
+    <button class="buton2">
+        <i class="fa-solid fa-address-card"></i>
+        Hakkimizda</button>
+    <button class="buton2">
+        <i class="fa-solid fa-shop"></i>
+        Kategoriler</button>
+    <button class="buton2">
+        <i class="fa-solid fa-phone"></i>
+        Iletisim</button>
+  </body>
 </html>
