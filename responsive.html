@@ -5,48 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Tasarim</title>
 
-
-<style>
-    *{
+    <style>
+      * {
         box-sizing: border-box;
-    }
+      }
 
-.kutu{
-    width: 25%;
-    height: 250px;
-    background: lightskyblue;
-    float: left;
-    border: 1px solid black;
-}
-@media screen and (max-width:700px) {
-    .kutu{
-        width: 50%;
-    }
-}
-    @media screen and (max-width:400px) {
-        .kutu{
-            width: 100%;
+      .kutu {
+        width: 25%;
+        height: 250px;
+        background: lightskyblue;
+        float: left;
+        border: 1px solid black;
+      }
+      @media screen and (max-width: 900px) {
+        .kutu {
+          width: 33%;
         }
-        
-    }
+      }
+      @media screen and (max-width: 600px) {
+        .kutu {
+          width: 50%;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .kutu {
+          width: 100%;
+        }
+      }
 
-
-
-</style>
-
-
-
+      img {
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
- <div class="kutu"></div>
- <div class="kutu"></div>
- <div class="kutu"></div>
- <div class="kutu"></div>
- <div class="kutu"></div>
- <div class="kutu"></div>
-
-
-
-
+    <div class="kutu">
+      <img src="images/manzara1.jpg" alt="" />
+    </div>
+    <div class="kutu">
+      <img src="images/manzara1.jpg" alt="" />
+    </div>
+    <div class="kutu">
+      <img src="images/manzara2.jpg" alt="" />
+    </div>
+    <div class="kutu">
+      <img src="images/manzara1.jpg" alt="" />
+    </div>
+    <div class="kutu">
+      <img src="images/manzara2.jpg" alt="" />
+    </div>
+    <div class="kutu">
+      <img src="images/manzara1.jpg" alt="" />
+    </div>
   </body>
 </html>
